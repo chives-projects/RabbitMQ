@@ -1,0 +1,22 @@
+#server:
+#  port: 8080
+#spring:
+#  application:
+#    name: rabbitmq
+#  rabbitmq:
+#    host: 192.168.160.22
+#    listener:
+#      simple:
+#        acknowledge-mode: manual
+#        retry:
+#          enabled: true
+#          initial-interval: 3000
+#          max-attempts: 5
+#    password: admin
+#    port: 5672
+#    publisher-confirms: true
+#    publisher-returns: true
+#    template:
+#      mandatory: true
+#    username: admin
+#    virtual-host: /
