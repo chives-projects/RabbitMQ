@@ -1,4 +1,4 @@
-package com.csc.rabbitmqdemo.template.config;
+package com.csc.rabbitmqdemo.template.config.rabbitmq;
 
 import com.rabbitmq.client.Channel;
 import org.springframework.amqp.core.*;
